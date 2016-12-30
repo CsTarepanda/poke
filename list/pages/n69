@@ -16,7 +16,7 @@
 <meta property="og:image" content="http://img.yakkun.com/poke/sm120/n69.gif" />
 <meta property="og:site_name" content="ポケモン徹底攻略" />
 <meta name="twitter:card" content="summary" />
-<link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/common161203b.css" /><link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/sm/zukan161117.css" />
+<link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/common161213.css" /><link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/sm/zukan161213.css" />
 <link rel="shortcut icon" href="//img.yakkun.com/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="icon" href="//img.yakkun.com/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="index" href="/" />
@@ -24,7 +24,7 @@
 <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript" src="//img.yakkun.com/js/common161212.js"></script>
-<script type="text/javascript" src="http://img.yakkun.com/js/sm/zukan161201.js"></script>
+<script type="text/javascript" src="//img.yakkun.com/js/sm/zukan161213.js"></script>
 <title>マダツボミ&nbsp;-&nbsp;ポケモン図鑑サンムーン - ポケモン徹底攻略</title>
 <script type="text/javascript"><!--
   var _gaq = _gaq || [];
@@ -62,7 +62,7 @@ googletag.enableServices();
 <div id="header" class="header">
 <div id="logo"><a href="/" id="top" name="top">ポケモン徹底攻略</a></div>
 <p><a href="/">トップページ</a><span>::</span><a href="../">サン/ムーン</a><span>::</span><a href="./">ポケモン図鑑サンムーン</a><span>::</span>マダツボミ</p>
-<div class="daily_img"><a href="http://yakkun.com/sm/zukan/n130"><img src="http://img.yakkun.com/poke/bw_icon_anime/n130.gif" alt="今日のポケモン" /></a></div>
+<div class="daily_img"><a href="http://yakkun.com/sm/zukan/n261"><img src="http://img.yakkun.com/poke/bw_icon_anime/n261.gif" alt="今日のポケモン" /></a></div>
 </div>
 
 <div id="ppp" class="ppp">
@@ -158,123 +158,124 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1415179005218-1');
 </script>
 </div>
 </div><div>
-<p>※一部のポケモンは進化した時に、基本技の一番上(例外あり)に設定されている技を覚えることがあります。</p>
+<p class="needless narrow">※一部のポケモンは進化した時に、基本技の一番上(例外あり)に設定されている技を覚えることがあります。</p>
+<div class="move_filter_container"></div>
 <div class="table">
 <table style="width:560px;" cellspacing="0" summary="技データ" id="move_list">
 <tr><th class="left" colspan="7">◆&nbsp;レベルアップで覚える技</th></tr>
-<tr class="float_thead"><th class="c1">タイプ</th><th class="c1">分類</th><th class="c1">威力</th><th class="c1">命中</th><th class="c1">PP</th><th class="c1">説明</th></tr>
-<tr class="c1"><td class="center">基本</td><td colspan="6"><a href="./search/?move=22">つるのムチ</a></td></tr>
-<tr class="center"><td>くさ</td><td class="physics"><span class="physics">物理</span></td><td>45</td><td>100</td><td>25</td><td class="move_ex">通常攻撃。</td></tr>
-<tr class="c1"><td class="center">Lv.7</td><td colspan="6"><a href="./search/?move=74">せいちょう</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>40</td><td class="move_ex">自分の『こうげき』『とくこう』ランクが1段階ずつ上がる。天気が『ひざしがつよい』の時は、2段階ずつ上がる。</td></tr>
-<tr class="c1"><td class="center">Lv.11</td><td colspan="6"><a href="./search/?move=35">まきつく</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="physics"><span class="physics">物理</span></td><td>15</td><td>90</td><td>20</td><td class="move_ex">4〜5ターンの間、毎ターン終了後最大HPの1/8のダメージを与え、その間相手は逃げたり交代できない。</td></tr>
-<tr class="c1"><td class="center">Lv.13</td><td colspan="6"><a href="./search/?move=79">ねむりごな</a></td></tr>
-<tr class="center"><td>くさ</td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>15</td><td class="move_ex">相手を2〜4ターン(実質1〜3ターン)の間『ねむり』状態にする。『くさ』タイプや特性『ぼうじん』のポケモンには無効。</td></tr>
-<tr class="c1"><td class="center">Lv.15</td><td colspan="6"><a href="./search/?move=77">どくのこな</a></td></tr>
-<tr class="center"><td>どく</td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>35</td><td class="move_ex">相手を『どく』状態にする。『どく』タイプや『はがね』タイプ、『くさ』タイプ、特性『ぼうじん』のポケモンには無効。</td></tr>
-<tr class="c1"><td class="center">Lv.17</td><td colspan="6"><a href="./search/?move=78">しびれごな</a></td></tr>
-<tr class="center"><td>くさ</td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>30</td><td class="move_ex">相手を『まひ』状態にする。『でんき』タイプや『くさ』タイプ、特性『ぼうじん』のポケモンには無効。</td></tr>
-<tr class="c1"><td class="center">Lv.23</td><td colspan="6"><a href="./search/?move=51">ようかいえき</a></td></tr>
-<tr class="center"><td>どく</td><td class="special"><span class="special">特殊</span></td><td>40</td><td>100</td><td>30</td><td class="move_ex">相手全体を攻撃。10%の確率で相手の『とくぼう』ランクを1段階下げる。</td></tr>
-<tr class="c1"><td class="center">Lv.27</td><td colspan="6"><a href="./search/?move=282">はたきおとす</a></td></tr>
-<tr class="center"><td>あく</td><td class="physics"><span class="physics">物理</span></td><td>65</td><td>100</td><td>20</td><td class="move_ex">相手が道具を持っている場合、ダメージが1.5倍になり、さらに道具を持っていない状態にする。戦闘終了後、道具は元に戻る。</td></tr>
-<tr class="c1"><td class="center">Lv.29</td><td colspan="6"><a href="./search/?move=230">あまいかおり</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>20</td><td class="move_ex">相手全体を攻撃。相手の回避率を2段階下げる。フィールドで使うと野生のポケモンが出現し、群れバトルが発生する場所では群れバトルになる。XYのみ雨が降っている場所では群れバトルは発生しない。</td></tr>
-<tr class="c1"><td class="center">Lv.35</td><td colspan="6"><a href="./search/?move=380">いえき</a></td></tr>
-<tr class="center"><td>どく</td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>10</td><td class="move_ex">相手の特性を無効にする。</td></tr>
-<tr class="c1"><td class="center">Lv.39</td><td colspan="6"><a href="./search/?move=75">はっぱカッター</a></td></tr>
-<tr class="center"><td>くさ</td><td class="physics"><span class="physics">物理</span></td><td>55</td><td>95</td><td>25</td><td class="move_ex">相手全体を攻撃。急所に当たりやすい(急所ランク:+1)。</td></tr>
-<tr class="c1"><td class="center">Lv.41</td><td colspan="6"><a href="./search/?move=398">どくづき</a></td></tr>
-<tr class="center"><td>どく</td><td class="physics"><span class="physics">物理</span></td><td>80</td><td>100</td><td>20</td><td class="move_ex">30%の確率で相手を『どく』状態にする。</td></tr>
-<tr class="c1"><td class="center">Lv.47</td><td colspan="6"><a href="./search/?move=21">たたきつける</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="physics"><span class="physics">物理</span></td><td>80</td><td>75</td><td>20</td><td class="move_ex">通常攻撃。</td></tr>
-<tr class="c1"><td class="center">Lv.50</td><td colspan="6"><a href="./search/?move=378">しぼりとる</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="special"><span class="special">特殊</span></td><td>-</td><td>100</td><td>5</td><td class="move_ex">相手の残りHPが多いほど威力が高くなる。最高120。</td></tr>
-<th class="left" colspan="7">◆&nbsp;わざマシン&nbsp;/&nbsp;ひでんマシンで覚える技</th></tr>
-<tr class="c1"><td class="center">技.6</td><td colspan="6"><a href="./search/?move=92">どくどく</a></td></tr>
-<tr class="center"><td>どく</td><td class="change"><span class="change">変化</span></td><td>-</td><td>90</td><td>10</td><td class="move_ex">相手を『もうどく』状態にする。『もうどく』状態は通常の『どく』状態と違い、受けるダメージが1/16、2/16、3/16・・・と増えていく。『どく』タイプのポケモンが使うと必ず命中する。『どく』タイプや『はがね』タイプには無効。</td></tr>
-<tr class="c1"><td class="center">技.9</td><td colspan="6"><a href="./search/?move=474">ベノムショック</a></td></tr>
-<tr class="center"><td>どく</td><td class="special"><span class="special">特殊</span></td><td>65</td><td>100</td><td>10</td><td class="move_ex">相手が『どく』状態の時、威力が2倍になる。</td></tr>
-<tr class="c1"><td class="center">技.10</td><td colspan="6"><a href="./search/?move=237">めざめるパワー</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="special"><span class="special">特殊</span></td><td>60</td><td>100</td><td>15</td><td class="move_ex">自分の個体値によって『タイプ』が変わる。(BW2までは威力も個体値によって変化)</td></tr>
-<tr class="c1"><td class="center">技.11</td><td colspan="6"><a href="./search/?move=241">にほんばれ</a></td></tr>
-<tr class="center"><td>ほのお</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>5</td><td class="move_ex">5ターンの間、天気を『ひざしがつよい』にする。</td></tr>
-<tr class="c1"><td class="center">技.17</td><td colspan="6"><a href="./search/?move=182">まもる</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>10</td><td class="move_ex">必ず先制でき(優先度:+4)、そのターンの間、相手の技を受けない。連続で使うと失敗しやすくなる。</td></tr>
-<tr class="c1"><td class="center">技.21</td><td colspan="6"><a href="./search/?move=218">やつあたり</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="physics"><span class="physics">物理</span></td><td>-</td><td>100</td><td>20</td><td class="move_ex">ポケモンがなついていないほど威力が高くなる。最高102。</td></tr>
-<tr class="c1"><td class="center">技.22</td><td colspan="6"><a href="./search/?move=76">ソーラービーム</a></td></tr>
-<tr class="center"><td>くさ</td><td class="special"><span class="special">特殊</span></td><td>120</td><td>100</td><td>10</td><td class="move_ex">1ターン目は攻撃せずに、2ターン目で攻撃する。天気が『ひざしがつよい』の時は1ターンためずに攻撃でき、『あめ』『あられ』『すなあらし』の時は威力が半分になる。</td></tr>
-<tr class="c1"><td class="center">技.27</td><td colspan="6"><a href="./search/?move=216">おんがえし</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="physics"><span class="physics">物理</span></td><td>-</td><td>100</td><td>20</td><td class="move_ex">ポケモンがなついているほど威力が高くなる。最高102。</td></tr>
-<tr class="c1"><td class="center">技.32</td><td colspan="6"><a href="./search/?move=104">かげぶんしん</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>15</td><td class="move_ex">自分の回避率を1段階上げる。</td></tr>
-<tr class="c1"><td class="center">技.33</td><td colspan="6"><a href="./search/?move=115">リフレクター</a></td></tr>
-<tr class="center"><td>エスパー</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20</td><td class="move_ex">5ターンの間、相手の物理攻撃のダメージを半分にする。味方2体やバトルロワイヤルの場合は半分ではなく2/3になる。急所に当たった場合は軽減されない。交代しても効果は続く。</td></tr>
-<tr class="c1"><td class="center">技.36</td><td colspan="6"><a href="./search/?move=188">ヘドロばくだん</a></td></tr>
-<tr class="center"><td>どく</td><td class="special"><span class="special">特殊</span></td><td>90</td><td>100</td><td>10</td><td class="move_ex">30%の確率で相手を『どく』状態にする。</td></tr>
-<tr class="c1"><td class="center">技.42</td><td colspan="6"><a href="./search/?move=263">からげんき</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="physics"><span class="physics">物理</span></td><td>70</td><td>100</td><td>20</td><td class="move_ex">自分が『どく』『まひ』『やけど』状態の時、威力が2倍になる。『やけど』による『こうげき』の半減の影響を受けない。</td></tr>
-<tr class="c1"><td class="center">技.44</td><td colspan="6"><a href="./search/?move=156">ねむる</a></td></tr>
-<tr class="center"><td>エスパー</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>10</td><td class="move_ex">HPと状態異常をすべて回復した後、2ターンの間『ねむり』状態になる。</td></tr>
-<tr class="c1"><td class="center">技.45</td><td colspan="6"><a href="./search/?move=213">メロメロ</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>15</td><td class="move_ex">相手を『メロメロ』状態にする。『メロメロ』状態になると、50%の確率で相手は自分に攻撃できなくなる。自分と相手の性別が同じ時は失敗する。</td></tr>
-<tr class="c1"><td class="center">技.46</td><td colspan="6"><a href="./search/?move=168">どろぼう</a></td></tr>
-<tr class="center"><td>あく</td><td class="physics"><span class="physics">物理</span></td><td>60</td><td>100</td><td>25</td><td class="move_ex">相手が持っている道具を自分の物にする。自分が既に道具を持っている場合は失敗するが、技『はたきおとす』で自分の道具が無効化されている時は奪う事ができ、道具は上書きされる。トレーナー戦の場合はバトル終了後になくなる。</td></tr>
-<tr class="c1"><td class="center">技.48</td><td colspan="6"><a href="./search/?move=496">りんしょう</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="special"><span class="special">特殊</span></td><td>60</td><td>100</td><td>15</td><td class="move_ex">同じターンに他のポケモンも『りんしょう』を使おうとすると、『すばやさ』に関係なく最初に使用したポケモンに続いて使用でき、最初以外の『りんしょう』は威力が2倍になる。相手の『みがわり』状態を貫通する。(ダブルバトル用)</td></tr>
-<tr class="c1"><td class="center">技.53</td><td colspan="6"><a href="./search/?move=412">エナジーボール</a></td></tr>
-<tr class="center"><td>くさ</td><td class="special"><span class="special">特殊</span></td><td>90</td><td>100</td><td>10</td><td class="move_ex">10%の確率で相手の『とくぼう』ランクを1段階下げる。</td></tr>
-<tr class="c1"><td class="center">技.75</td><td colspan="6"><a href="./search/?move=14">つるぎのまい</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20	</td><td class="move_ex">自分の『こうげき』ランクを2段階上げる。</td></tr>
-<tr class="c1"><td class="center">技.83</td><td colspan="6"><a href="./search/?move=562">まとわりつく</a></td></tr>
-<tr class="center"><td>むし</td><td class="special"><span class="special">特殊</span></td><td>20</td><td>100</td><td>20</td><td class="move_ex">4〜5ターンの間、毎ターン終了後最大HPの1/8のダメージを与え、その間相手は逃げたり交代できない。</td></tr>
-<tr class="c1"><td class="center">技.84</td><td colspan="6"><a href="./search/?move=398">どくづき</a></td></tr>
-<tr class="center"><td>どく</td><td class="physics"><span class="physics">物理</span></td><td>80</td><td>100</td><td>20</td><td class="move_ex">30%の確率で相手を『どく』状態にする。</td></tr>
-<tr class="c1"><td class="center">技.86</td><td colspan="6"><a href="./search/?move=447">くさむすび</a></td></tr>
-<tr class="center"><td>くさ</td><td class="special"><span class="special">特殊</span></td><td>-</td><td>100</td><td>20</td><td class="move_ex">相手の『おもさ』が重いほど威力が高くなる。10kg未満は20、25kg未満は40、50kg未満は60、100kg未満は80、200kg未満は100、それ以上は120。</td></tr>
-<tr class="c1"><td class="center">技.87</td><td colspan="6"><a href="./search/?move=207">いばる</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>85</td><td>15</td><td class="move_ex">相手を1〜4ターンの間『こんらん』状態にするが、相手の『こうげき』ランクを2段階上げてしまう。(第6世代は命中率:90)</td></tr>
-<tr class="c1"><td class="center">技.88</td><td colspan="6"><a href="./search/?move=214">ねごと</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>10</td><td class="move_ex">自分が『ねむり』状態の時のみ使用可能。自分の持っている技のうち1つをランダムで使う。PPが減少するのはこの技のみ。</td></tr>
-<tr class="c1"><td class="center">技.90</td><td colspan="6"><a href="./search/?move=164">みがわり</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>10</td><td class="move_ex">自分のHPを最大HPの1/4だけ減らして、減らしたHPと同じHPの自分の分身を作り、分身のHPが0になるまですべての攻撃を自分の代わりに分身が受ける。分身は状態異常にならない。ただし、音系の技などはそのまま受ける。</td></tr>
-<tr class="c1"><td class="center">技.96</td><td colspan="6"><a href="./search/?move=267">しぜんのちから</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20</td><td class="move_ex">地形が草むらの時は『エナジーボール』、沼地の時は『どろばくだん』、水上の時は『ハイドロポンプ』、砂地の時は『だいちのちから』、岩場と洞窟の時は『パワージェム』、雪原の時は『こおりのいぶき』、氷上の時は『れいとうビーム』、ミストフィールドの時は『ムーンフォース』、グラスフィールドの時は『エナジーボール』、エレキフィールドの時は『10まんボルト』、それ以外とスカイバトルの時は『トライアタック』となる。</td></tr>
-<tr class="c1"><td class="center">技.100</td><td colspan="6"><a href="./search/?move=576">ないしょばなし</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20</td><td class="move_ex">相手の『とくこう』ランクを1段階下げる。自分の命中率、相手の回避率に関係なく必ず命中する。相手が『まもる』『みきり』『たたみがえし』『トーチカ』『キングシールド』『ニードルガード』『ファストガード』『ワイドガード』をしていても成功する。相手の『みがわり』状態を貫通する。</td></tr>
-<th class="left" colspan="7">◆&nbsp;タマゴ技</th></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=141">きゅうけつ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=141&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>むし</td><td class="physics"><span class="physics">物理</span></td><td>80</td><td>100</td><td>10</td><td class="move_ex">相手に与えたダメージの半分だけ自分のHPが回復する。(第6世代は威力:20、PP:15)</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=202">ギガドレイン</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=202&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>くさ</td><td class="special"><span class="special">特殊</span></td><td>75</td><td>100</td><td>10</td><td class="move_ex">相手に与えたダメージの半分だけ自分のHPが回復する。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=227">アンコール</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=227&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>5</td><td class="move_ex">3ターンの間、相手は最後に使用した技しか使えなくなる。ただし、PPが0になると解除される。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=235">こうごうせい</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=235&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>くさ</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>5</td><td class="move_ex">HPが、天気が通常の時は最大HPの1/2、『ひざしがつよい』の時は最大HPの2/3、『あめ』『あられ』『すなあらし』の時は最大HPの1/4回復する。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=275">ねをはる</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=275&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>くさ</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20</td><td class="move_ex">使用後、毎ターン、HPが最大HPの1/16ずつ回復するが、交代できなくなる。自分が『ひこう』タイプや、特性『ふゆう』のポケモンの場合は『じめん』タイプの技が当たるようになる。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=311">ウェザーボール</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=311&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>ノーマル</td><td class="special"><span class="special">特殊</span></td><td>50</td><td>100</td><td>10</td><td class="move_ex">天気が『ひざしがつよい』の時は『ほのお』タイプ、『あめ』の時は『みず』タイプ、『あられ』の時は『こおり』タイプ、『すなあらし』の時は『いわ』タイプになり、威力が2倍になる。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=321">くすぐる</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=321&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>ノーマル</td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>20</td><td class="move_ex">相手の『こうげき』『ぼうぎょ』ランクを1段階ずつ下げる。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=331">タネマシンガン</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=331&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>くさ</td><td class="physics"><span class="physics">物理</span></td><td>25</td><td>100</td><td>30</td><td class="move_ex">1ターンに2〜5回連続で攻撃する。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=345">マジカルリーフ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=345&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>くさ</td><td class="special"><span class="special">特殊</span></td><td>60</td><td>-</td><td>20</td><td class="move_ex">自分の命中率、相手の回避率に関係なく必ず命中する。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=363">しぜんのめぐみ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=363&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>ノーマル</td><td class="physics"><span class="physics">物理</span></td><td>-</td><td>100</td><td>15</td><td class="move_ex">持っている『きのみ』によって『タイプ』と威力が変わる。『きのみ』はなくなる。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=388">なやみのタネ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=388&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>くさ</td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>10</td><td class="move_ex">相手の特性を『ふみん』にする。ただし、『なまけ』『バトルスイッチ』など一部の固有な特性の場合は失敗する。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=438">パワーウィップ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=438&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>くさ</td><td class="physics"><span class="physics">物理</span></td><td>120</td><td>85</td><td>10</td><td class="move_ex">通常攻撃。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=491">アシッドボム</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=491&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>どく</td><td class="special"><span class="special">特殊</span></td><td>40</td><td>100</td><td>20</td><td class="move_ex">100%の確率で相手の『とくぼう』ランクを2段階下げる。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=499">クリアスモッグ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=499&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>どく</td><td class="special"><span class="special">特殊</span></td><td>50</td><td>-</td><td>15</td><td class="move_ex">相手の能力ランクの変化を元に戻す。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=599">ゲップ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=599&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>どく</td><td class="special"><span class="special">特殊</span></td><td>120</td><td>90</td><td>10</td><td class="move_ex">この技は『きのみ』を食べると使えるようになる。</td></tr></table>
+<tr class="float_thead"><th class="c1">タイプ</th><th class="c1">分類</th><th class="c1">威力</th><th class="c1">命中</th><th class="c1">PP</th><th class="c1">直</th><th class="c1" style="width:250px">説明</th></tr>
+<tr class="move_main_row" data-type="11" data-class="1"><td class="move_condition_cell">基本</td><td colspan="6" class="move_name_cell"><a href="./search/?move=22">つるのムチ</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="physics"><span class="physics">物理</span></td><td>45</td><td>100</td><td>25</td><td>○</td><td class="move_ex_cell">通常攻撃。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">Lv.7</td><td colspan="6" class="move_name_cell"><a href="./search/?move=74">せいちょう</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>40</td><td>×</td><td class="move_ex_cell">自分の『こうげき』『とくこう』ランクが1段階ずつ上がる。天気が『ひざしがつよい』の時は、2段階ずつ上がる。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="1"><td class="move_condition_cell">Lv.11</td><td colspan="6" class="move_name_cell"><a href="./search/?move=35">まきつく</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="physics"><span class="physics">物理</span></td><td>15</td><td>90</td><td>20</td><td>○</td><td class="move_ex_cell">4〜5ターンの間、毎ターン終了後最大HPの1/8のダメージを与え、その間相手は逃げたり交代できない。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="0"><td class="move_condition_cell">Lv.13</td><td colspan="6" class="move_name_cell"><a href="./search/?move=79">ねむりごな</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>15</td><td>×</td><td class="move_ex_cell">相手を2〜4ターン(実質1〜3ターン)の間『ねむり』状態にする。『くさ』タイプや特性『ぼうじん』のポケモンには無効。</td></tr>
+<tr class="move_main_row" data-type="3" data-class="0"><td class="move_condition_cell">Lv.15</td><td colspan="6" class="move_name_cell"><a href="./search/?move=77">どくのこな</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>35</td><td>×</td><td class="move_ex_cell">相手を『どく』状態にする。『どく』タイプや『はがね』タイプ、『くさ』タイプ、特性『ぼうじん』のポケモンには無効。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="0"><td class="move_condition_cell">Lv.17</td><td colspan="6" class="move_name_cell"><a href="./search/?move=78">しびれごな</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>30</td><td>×</td><td class="move_ex_cell">相手を『まひ』状態にする。『でんき』タイプや『くさ』タイプ、特性『ぼうじん』のポケモンには無効。</td></tr>
+<tr class="move_main_row" data-type="3" data-class="2"><td class="move_condition_cell">Lv.23</td><td colspan="6" class="move_name_cell"><a href="./search/?move=51">ようかいえき</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="special"><span class="special">特殊</span></td><td>40</td><td>100</td><td>30</td><td>×</td><td class="move_ex_cell">相手全体を攻撃。10%の確率で相手の『とくぼう』ランクを1段階下げる。</td></tr>
+<tr class="move_main_row" data-type="16" data-class="1"><td class="move_condition_cell">Lv.27</td><td colspan="6" class="move_name_cell"><a href="./search/?move=282">はたきおとす</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t16">あく</span></td><td class="physics"><span class="physics">物理</span></td><td>65</td><td>100</td><td>20</td><td>○</td><td class="move_ex_cell">相手が道具を持っている場合、ダメージが1.5倍になり、さらに道具を持っていない状態にする。戦闘終了後、道具は元に戻る。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">Lv.29</td><td colspan="6" class="move_name_cell"><a href="./search/?move=230">あまいかおり</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>20</td><td>×</td><td class="move_ex_cell">相手全体を攻撃。相手の回避率を2段階下げる。フィールドで使うと野生のポケモンが出現し、群れバトルが発生する場所では群れバトルになる。XYのみ雨が降っている場所では群れバトルは発生しない。</td></tr>
+<tr class="move_main_row" data-type="3" data-class="0"><td class="move_condition_cell">Lv.35</td><td colspan="6" class="move_name_cell"><a href="./search/?move=380">いえき</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>10</td><td>×</td><td class="move_ex_cell">相手の特性を無効にする。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="1"><td class="move_condition_cell">Lv.39</td><td colspan="6" class="move_name_cell"><a href="./search/?move=75">はっぱカッター</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="physics"><span class="physics">物理</span></td><td>55</td><td>95</td><td>25</td><td>×</td><td class="move_ex_cell">相手全体を攻撃。急所に当たりやすい(急所ランク:+1)。</td></tr>
+<tr class="move_main_row" data-type="3" data-class="1"><td class="move_condition_cell">Lv.41</td><td colspan="6" class="move_name_cell"><a href="./search/?move=398">どくづき</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="physics"><span class="physics">物理</span></td><td>80</td><td>100</td><td>20</td><td>○</td><td class="move_ex_cell">30%の確率で相手を『どく』状態にする。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="1"><td class="move_condition_cell">Lv.47</td><td colspan="6" class="move_name_cell"><a href="./search/?move=21">たたきつける</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="physics"><span class="physics">物理</span></td><td>80</td><td>75</td><td>20</td><td>○</td><td class="move_ex_cell">通常攻撃。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="2"><td class="move_condition_cell">Lv.50</td><td colspan="6" class="move_name_cell"><a href="./search/?move=378">しぼりとる</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="special"><span class="special">特殊</span></td><td>-</td><td>100</td><td>5</td><td>○</td><td class="move_ex_cell">相手の残りHPが多いほど威力が高くなる。最高120。</td></tr>
+<tr><th class="left" colspan="7">◆&nbsp;わざマシン&nbsp;/&nbsp;ひでんマシンで覚える技</th></tr>
+<tr class="move_main_row" data-type="3" data-class="0"><td class="move_condition_cell">技.6</td><td colspan="6" class="move_name_cell"><a href="./search/?move=92">どくどく</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>90</td><td>10</td><td>×</td><td class="move_ex_cell">相手を『もうどく』状態にする。『もうどく』状態は通常の『どく』状態と違い、受けるダメージが1/16、2/16、3/16・・・と増えていく。『どく』タイプのポケモンが使うと必ず命中する。『どく』タイプや『はがね』タイプには無効。</td></tr>
+<tr class="move_main_row" data-type="3" data-class="2"><td class="move_condition_cell">技.9</td><td colspan="6" class="move_name_cell"><a href="./search/?move=474">ベノムショック</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="special"><span class="special">特殊</span></td><td>65</td><td>100</td><td>10</td><td>×</td><td class="move_ex_cell">相手が『どく』状態の時、威力が2倍になる。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="2"><td class="move_condition_cell">技.10</td><td colspan="6" class="move_name_cell"><a href="./search/?move=237">めざめるパワー</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="special"><span class="special">特殊</span></td><td>60</td><td>100</td><td>15</td><td>×</td><td class="move_ex_cell">自分の個体値によって『タイプ』が変わる。(BW2までは威力も個体値によって変化)</td></tr>
+<tr class="move_main_row" data-type="9" data-class="0"><td class="move_condition_cell">技.11</td><td colspan="6" class="move_name_cell"><a href="./search/?move=241">にほんばれ</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t9">ほのお</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>5</td><td>×</td><td class="move_ex_cell">5ターンの間、天気を『ひざしがつよい』にする。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">技.17</td><td colspan="6" class="move_name_cell"><a href="./search/?move=182">まもる</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>10</td><td>×</td><td class="move_ex_cell">必ず先制でき(優先度:+4)、そのターンの間、相手の技を受けない。連続で使うと失敗しやすくなる。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="1"><td class="move_condition_cell">技.21</td><td colspan="6" class="move_name_cell"><a href="./search/?move=218">やつあたり</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="physics"><span class="physics">物理</span></td><td>-</td><td>100</td><td>20</td><td>○</td><td class="move_ex_cell">ポケモンがなついていないほど威力が高くなる。最高102。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="2"><td class="move_condition_cell">技.22</td><td colspan="6" class="move_name_cell"><a href="./search/?move=76">ソーラービーム</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="special"><span class="special">特殊</span></td><td>120</td><td>100</td><td>10</td><td>×</td><td class="move_ex_cell">1ターン目は攻撃せずに、2ターン目で攻撃する。天気が『ひざしがつよい』の時は1ターンためずに攻撃でき、『あめ』『あられ』『すなあらし』の時は威力が半分になる。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="1"><td class="move_condition_cell">技.27</td><td colspan="6" class="move_name_cell"><a href="./search/?move=216">おんがえし</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="physics"><span class="physics">物理</span></td><td>-</td><td>100</td><td>20</td><td>○</td><td class="move_ex_cell">ポケモンがなついているほど威力が高くなる。最高102。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">技.32</td><td colspan="6" class="move_name_cell"><a href="./search/?move=104">かげぶんしん</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>15</td><td>×</td><td class="move_ex_cell">自分の回避率を1段階上げる。</td></tr>
+<tr class="move_main_row" data-type="13" data-class="0"><td class="move_condition_cell">技.33</td><td colspan="6" class="move_name_cell"><a href="./search/?move=115">リフレクター</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t13">エスパー</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20</td><td>×</td><td class="move_ex_cell">5ターンの間、相手の物理攻撃のダメージを半分にする。味方2体やバトルロイヤルの場合は半分ではなく2/3になる。急所に当たった場合は軽減されない。交代しても効果は続く。</td></tr>
+<tr class="move_main_row" data-type="3" data-class="2"><td class="move_condition_cell">技.36</td><td colspan="6" class="move_name_cell"><a href="./search/?move=188">ヘドロばくだん</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="special"><span class="special">特殊</span></td><td>90</td><td>100</td><td>10</td><td>×</td><td class="move_ex_cell">30%の確率で相手を『どく』状態にする。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="1"><td class="move_condition_cell">技.42</td><td colspan="6" class="move_name_cell"><a href="./search/?move=263">からげんき</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="physics"><span class="physics">物理</span></td><td>70</td><td>100</td><td>20</td><td>○</td><td class="move_ex_cell">自分が『どく』『まひ』『やけど』状態の時、威力が2倍になる。『やけど』による『こうげき』の半減の影響を受けない。</td></tr>
+<tr class="move_main_row" data-type="13" data-class="0"><td class="move_condition_cell">技.44</td><td colspan="6" class="move_name_cell"><a href="./search/?move=156">ねむる</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t13">エスパー</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>10</td><td>×</td><td class="move_ex_cell">HPと状態異常をすべて回復した後、2ターンの間『ねむり』状態になる。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">技.45</td><td colspan="6" class="move_name_cell"><a href="./search/?move=213">メロメロ</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>15</td><td>×</td><td class="move_ex_cell">相手を『メロメロ』状態にする。『メロメロ』状態になると、50%の確率で相手は自分に攻撃できなくなる。自分と相手の性別が同じ時は失敗する。</td></tr>
+<tr class="move_main_row" data-type="16" data-class="1"><td class="move_condition_cell">技.46</td><td colspan="6" class="move_name_cell"><a href="./search/?move=168">どろぼう</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t16">あく</span></td><td class="physics"><span class="physics">物理</span></td><td>60</td><td>100</td><td>25</td><td>○</td><td class="move_ex_cell">相手が持っている道具を自分の物にする。自分が既に道具を持っている場合は失敗するが、技『はたきおとす』で自分の道具が無効化されている時は奪う事ができ、道具は上書きされる。トレーナー戦の場合はバトル終了後になくなる。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="2"><td class="move_condition_cell">技.48</td><td colspan="6" class="move_name_cell"><a href="./search/?move=496">りんしょう</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="special"><span class="special">特殊</span></td><td>60</td><td>100</td><td>15</td><td>×</td><td class="move_ex_cell">同じターンに他のポケモンも『りんしょう』を使おうとすると、『すばやさ』に関係なく最初に使用したポケモンに続いて使用でき、最初以外の『りんしょう』は威力が2倍になる。相手の『みがわり』状態を貫通する。(ダブルバトル用)</td></tr>
+<tr class="move_main_row" data-type="11" data-class="2"><td class="move_condition_cell">技.53</td><td colspan="6" class="move_name_cell"><a href="./search/?move=412">エナジーボール</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="special"><span class="special">特殊</span></td><td>90</td><td>100</td><td>10</td><td>×</td><td class="move_ex_cell">10%の確率で相手の『とくぼう』ランクを1段階下げる。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">技.75</td><td colspan="6" class="move_name_cell"><a href="./search/?move=14">つるぎのまい</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20	</td><td>×</td><td class="move_ex_cell">自分の『こうげき』ランクを2段階上げる。</td></tr>
+<tr class="move_main_row" data-type="6" data-class="2"><td class="move_condition_cell">技.83</td><td colspan="6" class="move_name_cell"><a href="./search/?move=562">まとわりつく</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t6">むし</span></td><td class="special"><span class="special">特殊</span></td><td>20</td><td>100</td><td>20</td><td>○</td><td class="move_ex_cell">4〜5ターンの間、毎ターン終了後最大HPの1/8のダメージを与え、その間相手は逃げたり交代できない。</td></tr>
+<tr class="move_main_row" data-type="3" data-class="1"><td class="move_condition_cell">技.84</td><td colspan="6" class="move_name_cell"><a href="./search/?move=398">どくづき</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="physics"><span class="physics">物理</span></td><td>80</td><td>100</td><td>20</td><td>○</td><td class="move_ex_cell">30%の確率で相手を『どく』状態にする。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="2"><td class="move_condition_cell">技.86</td><td colspan="6" class="move_name_cell"><a href="./search/?move=447">くさむすび</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="special"><span class="special">特殊</span></td><td>-</td><td>100</td><td>20</td><td>○</td><td class="move_ex_cell">相手の『おもさ』が重いほど威力が高くなる。10kg未満は20、25kg未満は40、50kg未満は60、100kg未満は80、200kg未満は100、それ以上は120。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">技.87</td><td colspan="6" class="move_name_cell"><a href="./search/?move=207">いばる</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>85</td><td>15</td><td>×</td><td class="move_ex_cell">相手を1〜4ターンの間『こんらん』状態にするが、相手の『こうげき』ランクを2段階上げてしまう。(第6世代は命中率:90)</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">技.88</td><td colspan="6" class="move_name_cell"><a href="./search/?move=214">ねごと</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>10</td><td>×</td><td class="move_ex_cell">自分が『ねむり』状態の時のみ使用可能。自分の持っている技のうち1つをランダムで使う。PPが減少するのはこの技のみ。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">技.90</td><td colspan="6" class="move_name_cell"><a href="./search/?move=164">みがわり</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>10</td><td>×</td><td class="move_ex_cell">自分のHPを最大HPの1/4だけ減らして、減らしたHPと同じHPの自分の分身を作り、分身のHPが0になるまですべての攻撃を自分の代わりに分身が受ける。分身は状態異常にならない。ただし、音系の技などはそのまま受ける。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">技.96</td><td colspan="6" class="move_name_cell"><a href="./search/?move=267">しぜんのちから</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20</td><td>×</td><td class="move_ex_cell">地形が草むらの時は『エナジーボール』、水上の時は『ハイドロポンプ』、砂地の時は『だいちのちから』、岩場と洞窟の時は『パワージェム』、火山の時は『ふんえん』、氷上の時は『れいとうビーム』、ミストフィールドの時は『ムーンフォース』、グラスフィールドの時は『エナジーボール』、エレキフィールドの時は『10まんボルト』、サイコフィールドやウルトラスペースの時は『サイコキネシス』、それ以外は『トライアタック』となる。(第6世代は沼地の時は『どろばくだん』、雪原の時は『こおりのいぶき』)</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">技.100</td><td colspan="6" class="move_name_cell"><a href="./search/?move=576">ないしょばなし</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20</td><td>×</td><td class="move_ex_cell">相手の『とくこう』ランクを1段階下げる。自分の命中率、相手の回避率に関係なく必ず命中する。相手が『まもる』『みきり』『たたみがえし』『トーチカ』『キングシールド』『ニードルガード』『ファストガード』『ワイドガード』をしていても成功する。相手の『みがわり』状態を貫通する。</td></tr>
+<tr><th class="left" colspan="7">◆&nbsp;タマゴ技</th></tr>
+<tr class="move_main_row" data-type="6" data-class="1"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=141">きゅうけつ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=141&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t6">むし</span></td><td class="physics"><span class="physics">物理</span></td><td>80</td><td>100</td><td>10</td><td>○</td><td class="move_ex_cell">相手に与えたダメージの半分だけ自分のHPが回復する。(第6世代は威力:20、PP:15)</td></tr>
+<tr class="move_main_row" data-type="11" data-class="2"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=202">ギガドレイン</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=202&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="special"><span class="special">特殊</span></td><td>75</td><td>100</td><td>10</td><td>×</td><td class="move_ex_cell">相手に与えたダメージの半分だけ自分のHPが回復する。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=227">アンコール</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=227&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>5</td><td>×</td><td class="move_ex_cell">3ターンの間、相手は最後に使用した技しか使えなくなる。ただし、PPが0になると解除される。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="0"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=235">こうごうせい</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=235&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>5</td><td>×</td><td class="move_ex_cell">HPが、天気が通常の時は最大HPの1/2、『ひざしがつよい』の時は最大HPの2/3、『あめ』『あられ』『すなあらし』の時は最大HPの1/4回復する。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="0"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=275">ねをはる</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=275&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20</td><td>×</td><td class="move_ex_cell">使用後、毎ターン、HPが最大HPの1/16ずつ回復するが、交代できなくなる。自分が『ひこう』タイプや、特性『ふゆう』のポケモンの場合は『じめん』タイプの技が当たるようになる。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="2"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=311">ウェザーボール</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=311&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="special"><span class="special">特殊</span></td><td>50</td><td>100</td><td>10</td><td>×</td><td class="move_ex_cell">天気が『ひざしがつよい』の時は『ほのお』タイプ、『あめ』の時は『みず』タイプ、『あられ』の時は『こおり』タイプ、『すなあらし』の時は『いわ』タイプになり、威力が2倍になる。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="0"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=321">くすぐる</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=321&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>20</td><td>×</td><td class="move_ex_cell">相手の『こうげき』『ぼうぎょ』ランクを1段階ずつ下げる。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="1"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=331">タネマシンガン</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=331&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="physics"><span class="physics">物理</span></td><td>25</td><td>100</td><td>30</td><td>×</td><td class="move_ex_cell">1ターンに2〜5回連続で攻撃する。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="2"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=345">マジカルリーフ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=345&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="special"><span class="special">特殊</span></td><td>60</td><td>-</td><td>20</td><td>×</td><td class="move_ex_cell">自分の命中率、相手の回避率に関係なく必ず命中する。</td></tr>
+<tr class="move_main_row" data-type="0" data-class="1"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=363">しぜんのめぐみ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=363&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="physics"><span class="physics">物理</span></td><td>-</td><td>100</td><td>15</td><td>×</td><td class="move_ex_cell">持っている『きのみ』によって『タイプ』と威力が変わる。『きのみ』はなくなる。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="0"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=388">なやみのタネ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=388&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>100</td><td>10</td><td>×</td><td class="move_ex_cell">相手の特性を『ふみん』にする。ただし、『なまけ』『バトルスイッチ』など一部の固有な特性の場合は失敗する。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="1"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=438">パワーウィップ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=438&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="physics"><span class="physics">物理</span></td><td>120</td><td>85</td><td>10</td><td>○</td><td class="move_ex_cell">通常攻撃。</td></tr>
+<tr class="move_main_row" data-type="3" data-class="2"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=491">アシッドボム</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=491&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="special"><span class="special">特殊</span></td><td>40</td><td>100</td><td>20</td><td>×</td><td class="move_ex_cell">100%の確率で相手の『とくぼう』ランクを2段階下げる。</td></tr>
+<tr class="move_main_row" data-type="3" data-class="2"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=499">クリアスモッグ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=499&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="special"><span class="special">特殊</span></td><td>50</td><td>-</td><td>15</td><td>×</td><td class="move_ex_cell">相手の能力ランクの変化を元に戻す。</td></tr>
+<tr class="move_main_row" data-type="3" data-class="2"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=599">ゲップ</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=69&amp;move1_s=599&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="special"><span class="special">特殊</span></td><td>120</td><td>90</td><td>10</td><td>×</td><td class="move_ex_cell">この技は『きのみ』を食べると使えるようになる。</td></tr></table>
 </div>
 </div>
 <h3>過去シリーズでしか覚えられない技(マダツボミ)</h3><div><p class="needless"><span class="im">※</span>マークのある技は、第7世代でタマゴ技で覚えることのできる技です。第7世代でのタマゴ技と過去シリーズだけで覚える技の両立はできないことを考慮して記載しています。</p><ul class="other_move_list"><li><a href="./search/?move=148">フラッシュ</a>:技.70(ORAS/XY),技.70(BW2/BW),技.70(HS/DP/Pt)</li><li><a href="./search/?move=290">ひみつのちから</a>:技.94(ORAS),技.43(HS/DP/Pt)</li><li><a href="./search/?move=15">いあいぎり</a>:秘.1(ORAS/XY),秘.1(BW2/BW),秘.1(HS/DP/Pt)</li><li><span class="im">※</span><a href="./search/?move=331">タネマシンガン</a>:技.9(HS/DP/Pt)</li><li><span class="im">※</span><a href="./search/?move=202">ギガドレイン</a>:技.19(HS/DP/Pt),教え技(ORAS/BW2)</li><li><a href="./search/?move=203">こらえる</a>:技.58(HS/DP/Pt),教え技(GBA)</li><li><a href="./search/?move=445">ゆうわく</a>:技.78(HS/DP/Pt)</li><li><span class="im">※</span><a href="./search/?move=363">しぜんのめぐみ</a>:技.83(HS/DP/Pt)</li><li><a href="./search/?move=173">いびき</a>:教え技(ORAS/BW2/HS/Pt/GBA)</li><li><span class="im">※</span><a href="./search/?move=235">こうごうせい</a>:教え技(ORAS/BW2/HS/Pt)</li><li><a href="./search/?move=20">しめつける</a>:教え技(ORAS/BW2)</li><li><a href="./search/?move=402">タネばくだん</a>:教え技(ORAS/BW2/HS/Pt)</li><li><span class="im">※</span><a href="./search/?move=388">なやみのタネ</a>:教え技(ORAS/BW2/HS)</li><li><a href="./search/?move=389">ふいうち</a>:教え技(HS/Pt)</li><li><a href="./search/?move=38">すてみタックル</a>:教え技(GBA)</li><li><a href="./search/?move=102">ものまね</a>:教え技(GBA)</li></ul></div>
@@ -406,30 +407,30 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1456812093244-0');
 <h2>注目の育成論</h2>
 <div id="side_bar_theory_list">
 <ul>
-<li><a href="http://yakkun.com/sm/theory/n134"><img src="http://img.yakkun.com/poke/sm_icon/n134.gif" alt="シャワーズ" />ブイズ最強</a></li>
-<li>ひかえめ&nbsp;/&nbsp;うるおいボディ&nbsp;/&nbsp;たべのこし</li>
-<li>HP:172&nbsp;/&nbsp;防御:252&nbsp;/&nbsp;特攻:76&nbsp;/&nbsp;特防:4&nbsp;/&nbsp;素早:4</li>
-<li>ねっとう&nbsp;/&nbsp;れいとうビーム&nbsp;/&nbsp;あまごい&nbsp;/&nbsp;くろいきり</li>
+<li><a href="http://yakkun.com/sm/theory/n203"><img src="http://img.yakkun.com/poke/sm_icon/n398.gif" alt="ムクホーク" />ムクドリ×タカ×オウム【in対面構築】</a></li>
+<li>ようき&nbsp;/&nbsp;いかく&nbsp;/&nbsp;ヒコウZ</li>
+<li>HP:4&nbsp;/&nbsp;攻撃:252&nbsp;/&nbsp;素早:252</li>
+<li>ブレイブバード&nbsp;/&nbsp;インファイト&nbsp;/&nbsp;オウムがえし&nbsp;/&nbsp;まもる</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n131"><img src="http://img.yakkun.com/poke/sm_icon/n771.gif" alt="ナマコブシ" />後続を守る！【バトンナマコ】</a></li>
-<li>のんき&nbsp;/&nbsp;てんねん&nbsp;/&nbsp;ドクZ</li>
-<li>HP:252&nbsp;/&nbsp;防御:252&nbsp;/&nbsp;特防:6</li>
-<li>じょうか&nbsp;/&nbsp;バトンタッチ&nbsp;/&nbsp;どくどく&nbsp;/&nbsp;じこさいせい</li>
+<li><a href="http://yakkun.com/sm/theory/n193"><img src="http://img.yakkun.com/poke/sm_icon/n65m.gif" alt="メガフーディン" />七世代のメガフーディン徹底考察　</a></li>
+<li>おくびょう&nbsp;/&nbsp;トレース&nbsp;/&nbsp;対応メガストーン</li>
+<li>HP:52&nbsp;/&nbsp;防御:204&nbsp;/&nbsp;素早:252</li>
+<li>サイコキネシス&nbsp;/&nbsp;きあいだま&nbsp;/&nbsp;まもる&nbsp;/&nbsp;アンコール</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n130"><img src="http://img.yakkun.com/poke/sm_icon/n549.gif" alt="ドレディア" />祝!!まさかのトップメタ　【コータスドレディア】</a></li>
-<li>ひかえめ&nbsp;/&nbsp;ようりょくそ&nbsp;/&nbsp;クサZ</li>
-<li>特攻:252&nbsp;/&nbsp;特防:4&nbsp;/&nbsp;素早:252</li>
-<li>リーフストーム&nbsp;/&nbsp;おさきにどうぞ&nbsp;/&nbsp;ねむりごな&nbsp;/&nbsp;エナジーボール</li>
+<li><a href="http://yakkun.com/sm/theory/n192"><img src="http://img.yakkun.com/poke/sm_icon/n796.gif" alt="デンジュモク" />めざ地デンジュモク</a></li>
+<li>ひかえめ&nbsp;/&nbsp;ビーストブースト&nbsp;/&nbsp;たつじんのおび</li>
+<li>HP:212&nbsp;/&nbsp;防御:92&nbsp;/&nbsp;特攻:4&nbsp;/&nbsp;特防:100&nbsp;/&nbsp;素早:100</li>
+<li>10まんボルト&nbsp;/&nbsp;めざめるパワー&nbsp;/&nbsp;ボルトチェンジ&nbsp;/&nbsp;どくどく</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n126"><img src="http://img.yakkun.com/poke/sm_icon/n474.gif" alt="ポリゴンZ" />@ノーマルZ【基本考察】</a></li>
-<li>おくびょう&nbsp;/&nbsp;てきおうりょく&nbsp;/&nbsp;ノーマルZ</li>
-<li>HP:4&nbsp;/&nbsp;特攻:252&nbsp;/&nbsp;素早:252</li>
-<li>シャドーボール&nbsp;/&nbsp;テクスチャー&nbsp;/&nbsp;れいとうビーム&nbsp;/&nbsp;トライアタック</li>
+<li><a href="http://yakkun.com/sm/theory/n189"><img src="http://img.yakkun.com/poke/sm_icon/n778.gif" alt="ミミッキュ" />【Z鬼火】執念と怨恨の焔Zミミッキュ</a></li>
+<li>ようき&nbsp;/&nbsp;ばけのかわ&nbsp;/&nbsp;ホノオZ</li>
+<li>攻撃:180&nbsp;/&nbsp;防御:76&nbsp;/&nbsp;素早:252</li>
+<li>おにび&nbsp;/&nbsp;じゃれつく&nbsp;/&nbsp;シャドークロー&nbsp;/&nbsp;みちづれ</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n120"><img src="http://img.yakkun.com/poke/sm_icon/n799.gif" alt="アクジキング" />RFガラガラやギルガルド意識☆アクジキングの調整</a></li>
-<li>れいせい&nbsp;/&nbsp;ビーストブースト&nbsp;/&nbsp;オボンのみ</li>
-<li>HP:12&nbsp;/&nbsp;防御:180&nbsp;/&nbsp;特攻:252&nbsp;/&nbsp;特防:60&nbsp;/&nbsp;素早:4</li>
-<li>あくのはどう&nbsp;/&nbsp;りゅうせいぐん&nbsp;/&nbsp;ヘドロウェーブ&nbsp;/&nbsp;どくどく</li>
+<li><a href="http://yakkun.com/sm/theory/n186"><img src="http://img.yakkun.com/poke/sm_icon/n20a.gif" alt="ラッタ(アローラ)" />いのちがけすりかえRラッタ</a></li>
+<li>ようき&nbsp;/&nbsp;あついしぼう&nbsp;/&nbsp;こだわりスカーフ</li>
+<li>HP:252&nbsp;/&nbsp;攻撃:4&nbsp;/&nbsp;素早:252</li>
+<li>いのちがけ&nbsp;/&nbsp;すりかえ&nbsp;/&nbsp;いかりのまえば&nbsp;/&nbsp;とんぼがえり</li>
 </ul>
 </div>
 </div>
@@ -475,7 +476,7 @@ function googleTranslateElementInit() {
 <h2>ページ情報</h2>
 <div>
 <dl>
-<dt>最終更新日</dt><dd>2016年12月11日(日)</dd>
+<dt>最終更新日</dt><dd>2016年12月13日(火)</dd>
 </dl>
 </div>
 </div>

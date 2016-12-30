@@ -16,7 +16,7 @@
 <meta property="og:image" content="http://img.yakkun.com/poke/sm120/n374.gif" />
 <meta property="og:site_name" content="ポケモン徹底攻略" />
 <meta name="twitter:card" content="summary" />
-<link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/common161203b.css" /><link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/sm/zukan161117.css" />
+<link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/common161213.css" /><link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/sm/zukan161213.css" />
 <link rel="shortcut icon" href="//img.yakkun.com/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="icon" href="//img.yakkun.com/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="index" href="/" />
@@ -24,7 +24,7 @@
 <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript" src="//img.yakkun.com/js/common161212.js"></script>
-<script type="text/javascript" src="http://img.yakkun.com/js/sm/zukan161201.js"></script>
+<script type="text/javascript" src="//img.yakkun.com/js/sm/zukan161213.js"></script>
 <title>ダンバル&nbsp;-&nbsp;ポケモン図鑑サンムーン - ポケモン徹底攻略</title>
 <script type="text/javascript"><!--
   var _gaq = _gaq || [];
@@ -62,7 +62,7 @@ googletag.enableServices();
 <div id="header" class="header">
 <div id="logo"><a href="/" id="top" name="top">ポケモン徹底攻略</a></div>
 <p><a href="/">トップページ</a><span>::</span><a href="../">サン/ムーン</a><span>::</span><a href="./">ポケモン図鑑サンムーン</a><span>::</span>ダンバル</p>
-<div class="daily_img"><a href="http://yakkun.com/sm/zukan/n130"><img src="http://img.yakkun.com/poke/bw_icon_anime/n130.gif" alt="今日のポケモン" /></a></div>
+<div class="daily_img"><a href="http://yakkun.com/sm/zukan/n261"><img src="http://img.yakkun.com/poke/bw_icon_anime/n261.gif" alt="今日のポケモン" /></a></div>
 </div>
 
 <div id="ppp" class="ppp">
@@ -143,7 +143,8 @@ googletag.enableServices();
 <tr><th class="left" colspan="5"><a href="#" id="characteristic" name="characteristic" onclick="helpZukan(event,'characteristic');return false;" onkeypress="helpZukan(event,'characteristic');return false;"><img src="http://img.yakkun.com/page/help.gif" alt="ヘルプ" class="help" /></a>◆&nbsp;特性(とくせい)</th></tr>
 <tr><td class="c1" style="width:100px;"><a href="/sm/zukan/search/?tokusei=29">クリアボディ</a></td><td class="left" colspan="4" style="line-height:14px;font-size:9px">相手の能力ランクを下げる技や特性の効果を受けない。</td></tr><tr><td class="c1"><a href="/sm/zukan/search/?tokusei=135">*ライトメタル</a></td><td class="left" colspan="4" style="line-height:14px;font-size:9px">自分の『おもさ』が半分になる。(技『けたぐり』『くさむすび』対策などで有効)</td></tr>
 
-</table>
+<tr><th class="left" colspan="5">◆&nbsp;野生のポケモンが持っている道具</th></tr>
+<tr><td class="c1">低確率</td><td>メタルコート</td></tr></table>
 </td></tr></table>
 <div id="theory">
 <p><a href="/sm/theory/p374">ダンバルの育成論を見る&nbsp;&gt;&gt;</a></p>
@@ -160,17 +161,18 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1415179005218-1');
 </script>
 </div>
 </div><div>
-<p>※一部のポケモンは進化した時に、基本技の一番上(例外あり)に設定されている技を覚えることがあります。</p>
+<p class="needless narrow">※一部のポケモンは進化した時に、基本技の一番上(例外あり)に設定されている技を覚えることがあります。</p>
+<div class="move_filter_container"></div>
 <div class="table">
 <table style="width:560px;" cellspacing="0" summary="技データ" id="move_list">
 <tr><th class="left" colspan="7">◆&nbsp;レベルアップで覚える技</th></tr>
-<tr class="float_thead"><th class="c1">タイプ</th><th class="c1">分類</th><th class="c1">威力</th><th class="c1">命中</th><th class="c1">PP</th><th class="c1">説明</th></tr>
-<tr class="c1"><td class="center">基本</td><td colspan="6"><a href="./search/?move=36">とっしん</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="physics"><span class="physics">物理</span></td><td>90</td><td>85</td><td>20</td><td class="move_ex">相手に与えたダメージの1/4を自分も受ける。</td></tr>
-<th class="left" colspan="7">◆&nbsp;わざマシン&nbsp;/&nbsp;ひでんマシンで覚える技</th></tr>
-<tr><td colspan="6">なし</td></tr>
-<th class="left" colspan="7">◆&nbsp;タマゴ技</th></tr>
-<tr><td colspan="6">なし</td></tr></table>
+<tr class="float_thead"><th class="c1">タイプ</th><th class="c1">分類</th><th class="c1">威力</th><th class="c1">命中</th><th class="c1">PP</th><th class="c1">直</th><th class="c1" style="width:250px">説明</th></tr>
+<tr class="move_main_row" data-type="0" data-class="1"><td class="move_condition_cell">基本</td><td colspan="6" class="move_name_cell"><a href="./search/?move=36">とっしん</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="physics"><span class="physics">物理</span></td><td>90</td><td>85</td><td>20</td><td>○</td><td class="move_ex_cell">相手に与えたダメージの1/4を自分も受ける。</td></tr>
+<tr><th class="left" colspan="7">◆&nbsp;わざマシン&nbsp;/&nbsp;ひでんマシンで覚える技</th></tr>
+<tr><td colspan="7">なし</td></tr>
+<tr><th class="left" colspan="7">◆&nbsp;タマゴ技</th></tr>
+<tr><td colspan="7">なし</td></tr></table>
 </div>
 </div>
 <h3>過去シリーズでしか覚えられない技(ダンバル)</h3><div><ul class="other_move_list"><li><a href="./search/?move=442">アイアンヘッド</a>:教え技(ORAS/BW2/HS/Pt)</li><li><a href="./search/?move=428">しねんのずつき</a>:教え技(ORAS/BW2/HS/Pt)</li><li><a href="./search/?move=334">てっぺき</a>:教え技(ORAS/BW2/HS/Pt)</li><li><a href="./search/?move=29">ずつき</a>:教え技(HS)</li></ul></div>
@@ -302,30 +304,30 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1456812093244-0');
 <h2>注目の育成論</h2>
 <div id="side_bar_theory_list">
 <ul>
-<li><a href="http://yakkun.com/sm/theory/n134"><img src="http://img.yakkun.com/poke/sm_icon/n134.gif" alt="シャワーズ" />ブイズ最強</a></li>
-<li>ひかえめ&nbsp;/&nbsp;うるおいボディ&nbsp;/&nbsp;たべのこし</li>
-<li>HP:172&nbsp;/&nbsp;防御:252&nbsp;/&nbsp;特攻:76&nbsp;/&nbsp;特防:4&nbsp;/&nbsp;素早:4</li>
-<li>ねっとう&nbsp;/&nbsp;れいとうビーム&nbsp;/&nbsp;あまごい&nbsp;/&nbsp;くろいきり</li>
+<li><a href="http://yakkun.com/sm/theory/n203"><img src="http://img.yakkun.com/poke/sm_icon/n398.gif" alt="ムクホーク" />ムクドリ×タカ×オウム【in対面構築】</a></li>
+<li>ようき&nbsp;/&nbsp;いかく&nbsp;/&nbsp;ヒコウZ</li>
+<li>HP:4&nbsp;/&nbsp;攻撃:252&nbsp;/&nbsp;素早:252</li>
+<li>ブレイブバード&nbsp;/&nbsp;インファイト&nbsp;/&nbsp;オウムがえし&nbsp;/&nbsp;まもる</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n131"><img src="http://img.yakkun.com/poke/sm_icon/n771.gif" alt="ナマコブシ" />後続を守る！【バトンナマコ】</a></li>
-<li>のんき&nbsp;/&nbsp;てんねん&nbsp;/&nbsp;ドクZ</li>
-<li>HP:252&nbsp;/&nbsp;防御:252&nbsp;/&nbsp;特防:6</li>
-<li>じょうか&nbsp;/&nbsp;バトンタッチ&nbsp;/&nbsp;どくどく&nbsp;/&nbsp;じこさいせい</li>
+<li><a href="http://yakkun.com/sm/theory/n193"><img src="http://img.yakkun.com/poke/sm_icon/n65m.gif" alt="メガフーディン" />七世代のメガフーディン徹底考察　</a></li>
+<li>おくびょう&nbsp;/&nbsp;トレース&nbsp;/&nbsp;対応メガストーン</li>
+<li>HP:52&nbsp;/&nbsp;防御:204&nbsp;/&nbsp;素早:252</li>
+<li>サイコキネシス&nbsp;/&nbsp;きあいだま&nbsp;/&nbsp;まもる&nbsp;/&nbsp;アンコール</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n130"><img src="http://img.yakkun.com/poke/sm_icon/n549.gif" alt="ドレディア" />祝!!まさかのトップメタ　【コータスドレディア】</a></li>
-<li>ひかえめ&nbsp;/&nbsp;ようりょくそ&nbsp;/&nbsp;クサZ</li>
-<li>特攻:252&nbsp;/&nbsp;特防:4&nbsp;/&nbsp;素早:252</li>
-<li>リーフストーム&nbsp;/&nbsp;おさきにどうぞ&nbsp;/&nbsp;ねむりごな&nbsp;/&nbsp;エナジーボール</li>
+<li><a href="http://yakkun.com/sm/theory/n192"><img src="http://img.yakkun.com/poke/sm_icon/n796.gif" alt="デンジュモク" />めざ地デンジュモク</a></li>
+<li>ひかえめ&nbsp;/&nbsp;ビーストブースト&nbsp;/&nbsp;たつじんのおび</li>
+<li>HP:212&nbsp;/&nbsp;防御:92&nbsp;/&nbsp;特攻:4&nbsp;/&nbsp;特防:100&nbsp;/&nbsp;素早:100</li>
+<li>10まんボルト&nbsp;/&nbsp;めざめるパワー&nbsp;/&nbsp;ボルトチェンジ&nbsp;/&nbsp;どくどく</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n126"><img src="http://img.yakkun.com/poke/sm_icon/n474.gif" alt="ポリゴンZ" />@ノーマルZ【基本考察】</a></li>
-<li>おくびょう&nbsp;/&nbsp;てきおうりょく&nbsp;/&nbsp;ノーマルZ</li>
-<li>HP:4&nbsp;/&nbsp;特攻:252&nbsp;/&nbsp;素早:252</li>
-<li>シャドーボール&nbsp;/&nbsp;テクスチャー&nbsp;/&nbsp;れいとうビーム&nbsp;/&nbsp;トライアタック</li>
+<li><a href="http://yakkun.com/sm/theory/n189"><img src="http://img.yakkun.com/poke/sm_icon/n778.gif" alt="ミミッキュ" />【Z鬼火】執念と怨恨の焔Zミミッキュ</a></li>
+<li>ようき&nbsp;/&nbsp;ばけのかわ&nbsp;/&nbsp;ホノオZ</li>
+<li>攻撃:180&nbsp;/&nbsp;防御:76&nbsp;/&nbsp;素早:252</li>
+<li>おにび&nbsp;/&nbsp;じゃれつく&nbsp;/&nbsp;シャドークロー&nbsp;/&nbsp;みちづれ</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n120"><img src="http://img.yakkun.com/poke/sm_icon/n799.gif" alt="アクジキング" />RFガラガラやギルガルド意識☆アクジキングの調整</a></li>
-<li>れいせい&nbsp;/&nbsp;ビーストブースト&nbsp;/&nbsp;オボンのみ</li>
-<li>HP:12&nbsp;/&nbsp;防御:180&nbsp;/&nbsp;特攻:252&nbsp;/&nbsp;特防:60&nbsp;/&nbsp;素早:4</li>
-<li>あくのはどう&nbsp;/&nbsp;りゅうせいぐん&nbsp;/&nbsp;ヘドロウェーブ&nbsp;/&nbsp;どくどく</li>
+<li><a href="http://yakkun.com/sm/theory/n186"><img src="http://img.yakkun.com/poke/sm_icon/n20a.gif" alt="ラッタ(アローラ)" />いのちがけすりかえRラッタ</a></li>
+<li>ようき&nbsp;/&nbsp;あついしぼう&nbsp;/&nbsp;こだわりスカーフ</li>
+<li>HP:252&nbsp;/&nbsp;攻撃:4&nbsp;/&nbsp;素早:252</li>
+<li>いのちがけ&nbsp;/&nbsp;すりかえ&nbsp;/&nbsp;いかりのまえば&nbsp;/&nbsp;とんぼがえり</li>
 </ul>
 </div>
 </div>
@@ -371,7 +373,7 @@ function googleTranslateElementInit() {
 <h2>ページ情報</h2>
 <div>
 <dl>
-<dt>最終更新日</dt><dd>2016年12月11日(日)</dd>
+<dt>最終更新日</dt><dd>2016年12月13日(火)</dd>
 </dl>
 </div>
 </div>

@@ -1,5 +1,5 @@
 from peewee import *
-DATABASE = SqliteDatabase("pokemon.sqlite3")
+DATABASE = SqliteDatabase("/home/c0115114ca/my/work/poke/list/pokemon.sqlite3")
 class BaseModel(Model):
     class Meta:
         database = DATABASE
@@ -55,18 +55,18 @@ class TypeChemistries(BaseModel):
     effective = FloatField()
 
 
-class SkillClassifications(BaseModel):
+class MoveClassifications(BaseModel):
     name = CharField(unique=True)
 
 
-# class ZSkills(BaseModel):
+# class ZMoves(BaseModel):
 #     name = CharField()
 #
 #
-class Skills(BaseModel):
+class Moves(BaseModel):
     name = CharField()
-    typedata = ForeignKeyField(OriginTypes, related_name="skills");
-    classification = ForeignKeyField(SkillClassifications, related_name="skills")
+    typedata = ForeignKeyField(OriginTypes, related_name="moves");
+    classification = ForeignKeyField(MoveClassifications, related_name="moves")
     power = IntegerField(null=True)
     z = IntegerField(null=True)
     pp = IntegerField()
@@ -77,10 +77,10 @@ class Skills(BaseModel):
     target = CharField()
     
 
-class PokemonSkills(BaseModel):
+class PokemonMoves(BaseModel):
     classification = CharField()
-    pokemon = ForeignKeyField(Pokemons, related_name="skills")
-    skill = ForeignKeyField(Skills, related_name="pokemons")
+    pokemon = ForeignKeyField(Pokemons, related_name="moves")
+    move = ForeignKeyField(Moves, related_name="pokemons")
 
 
 class Abilities(BaseModel):
@@ -92,6 +92,7 @@ class PokemonAbilities(BaseModel):
     pokemon = ForeignKeyField(Pokemons, related_name="abilities")
     ability = ForeignKeyField(Abilities, related_name="pokemons")
     hide = BooleanField(default=False)
+
 #
 #
 # class Evolution(BaseModel):

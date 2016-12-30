@@ -16,7 +16,7 @@
 <meta property="og:image" content="http://img.yakkun.com/poke/sm120/n664.gif" />
 <meta property="og:site_name" content="ポケモン徹底攻略" />
 <meta name="twitter:card" content="summary" />
-<link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/common161203b.css" /><link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/sm/zukan161117.css" />
+<link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/common161213.css" /><link rel="stylesheet" type="text/css" href="http://img.yakkun.com/css/sm/zukan161213.css" />
 <link rel="shortcut icon" href="//img.yakkun.com/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="icon" href="//img.yakkun.com/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="index" href="/" />
@@ -24,7 +24,7 @@
 <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript" src="//img.yakkun.com/js/common161212.js"></script>
-<script type="text/javascript" src="http://img.yakkun.com/js/sm/zukan161201.js"></script>
+<script type="text/javascript" src="//img.yakkun.com/js/sm/zukan161213.js"></script>
 <title>コフキムシ&nbsp;-&nbsp;ポケモン図鑑サンムーン - ポケモン徹底攻略</title>
 <script type="text/javascript"><!--
   var _gaq = _gaq || [];
@@ -62,7 +62,7 @@ googletag.enableServices();
 <div id="header" class="header">
 <div id="logo"><a href="/" id="top" name="top">ポケモン徹底攻略</a></div>
 <p><a href="/">トップページ</a><span>::</span><a href="../">サン/ムーン</a><span>::</span><a href="./">ポケモン図鑑サンムーン</a><span>::</span>コフキムシ</p>
-<div class="daily_img"><a href="http://yakkun.com/sm/zukan/n130"><img src="http://img.yakkun.com/poke/bw_icon_anime/n130.gif" alt="今日のポケモン" /></a></div>
+<div class="daily_img"><a href="http://yakkun.com/sm/zukan/n261"><img src="http://img.yakkun.com/poke/bw_icon_anime/n261.gif" alt="今日のポケモン" /></a></div>
 </div>
 
 <div id="ppp" class="ppp">
@@ -160,28 +160,29 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1415179005218-1');
 </script>
 </div>
 </div><div>
-<p>※一部のポケモンは進化した時に、基本技の一番上(例外あり)に設定されている技を覚えることがあります。</p>
+<p class="needless narrow">※一部のポケモンは進化した時に、基本技の一番上(例外あり)に設定されている技を覚えることがあります。</p>
+<div class="move_filter_container"></div>
 <div class="table">
 <table style="width:560px;" cellspacing="0" summary="技データ" id="move_list">
 <tr><th class="left" colspan="7">◆&nbsp;レベルアップで覚える技</th></tr>
-<tr class="float_thead"><th class="c1">タイプ</th><th class="c1">分類</th><th class="c1">威力</th><th class="c1">命中</th><th class="c1">PP</th><th class="c1">説明</th></tr>
-<tr class="c1"><td class="center">基本</td><td colspan="6"><a href="./search/?move=33">たいあたり</a></td></tr>
-<tr class="center"><td>ノーマル</td><td class="physics"><span class="physics">物理</span></td><td>40</td><td>100</td><td>35</td><td class="move_ex">通常攻撃。(第6世代は威力:50)</td></tr>
-<tr class="c1"><td class="center">基本</td><td colspan="6"><a href="./search/?move=81">いとをはく</a></td></tr>
-<tr class="center"><td>むし</td><td class="change"><span class="change">変化</span></td><td>-</td><td>95</td><td>40</td><td class="move_ex">相手全体を攻撃。相手の『すばやさ』ランクを2段階下げる。</td></tr>
-<tr class="c1"><td class="center">Lv.6</td><td colspan="6"><a href="./search/?move=78">しびれごな</a></td></tr>
-<tr class="center"><td>くさ</td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>30</td><td class="move_ex">相手を『まひ』状態にする。『でんき』タイプや『くさ』タイプ、特性『ぼうじん』のポケモンには無効。</td></tr>
-<tr class="c1"><td class="center">Lv.15</td><td colspan="6"><a href="./search/?move=450">むしくい</a></td></tr>
-<tr class="center"><td>むし</td><td class="physics"><span class="physics">物理</span></td><td>60</td><td>100</td><td>20</td><td class="move_ex">相手が持っているバトルに効果のある『きのみ』を奪って、自分に使う。</td></tr>
-<th class="left" colspan="7">◆&nbsp;わざマシン&nbsp;/&nbsp;ひでんマシンで覚える技</th></tr>
-<tr><td colspan="6">なし</td></tr>
-<th class="left" colspan="7">◆&nbsp;タマゴ技</th></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=77">どくのこな</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=688&amp;move1_s=77&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>どく</td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>35</td><td class="move_ex">相手を『どく』状態にする。『どく』タイプや『はがね』タイプ、『くさ』タイプ、特性『ぼうじん』のポケモンには無効。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=78">しびれごな</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=688&amp;move1_s=78&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>くさ</td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>30</td><td class="move_ex">相手を『まひ』状態にする。『でんき』タイプや『くさ』タイプ、特性『ぼうじん』のポケモンには無効。</td></tr>
-<tr class="c1"><td class="center">遺伝</td><td colspan="6"><a href="./search/?move=476">いかりのこな</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=688&amp;move1_s=476&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
-<tr class="center"><td>むし</td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20</td><td class="move_ex">必ず先制できる(優先度:+2)。そのターンの相手の技をすべて自分が受ける。ただし、全体技には効果がない。『くさ』タイプや特性『ぼうじん』のポケモンには無効。ダブルバトル用。</td></tr></table>
+<tr class="float_thead"><th class="c1">タイプ</th><th class="c1">分類</th><th class="c1">威力</th><th class="c1">命中</th><th class="c1">PP</th><th class="c1">直</th><th class="c1" style="width:250px">説明</th></tr>
+<tr class="move_main_row" data-type="0" data-class="1"><td class="move_condition_cell">基本</td><td colspan="6" class="move_name_cell"><a href="./search/?move=33">たいあたり</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t0">ノーマル</span></td><td class="physics"><span class="physics">物理</span></td><td>40</td><td>100</td><td>35</td><td>○</td><td class="move_ex_cell">通常攻撃。(第6世代は威力:50)</td></tr>
+<tr class="move_main_row" data-type="6" data-class="0"><td class="move_condition_cell">基本</td><td colspan="6" class="move_name_cell"><a href="./search/?move=81">いとをはく</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t6">むし</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>95</td><td>40</td><td>×</td><td class="move_ex_cell">相手全体を攻撃。相手の『すばやさ』ランクを2段階下げる。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="0"><td class="move_condition_cell">Lv.6</td><td colspan="6" class="move_name_cell"><a href="./search/?move=78">しびれごな</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>30</td><td>×</td><td class="move_ex_cell">相手を『まひ』状態にする。『でんき』タイプや『くさ』タイプ、特性『ぼうじん』のポケモンには無効。</td></tr>
+<tr class="move_main_row" data-type="6" data-class="1"><td class="move_condition_cell">Lv.15</td><td colspan="6" class="move_name_cell"><a href="./search/?move=450">むしくい</a></td></tr>
+<tr class="move_detail_row"><td><span class="type t6">むし</span></td><td class="physics"><span class="physics">物理</span></td><td>60</td><td>100</td><td>20</td><td>○</td><td class="move_ex_cell">相手が持っているバトルに効果のある『きのみ』を奪って、自分に使う。</td></tr>
+<tr><th class="left" colspan="7">◆&nbsp;わざマシン&nbsp;/&nbsp;ひでんマシンで覚える技</th></tr>
+<tr><td colspan="7">なし</td></tr>
+<tr><th class="left" colspan="7">◆&nbsp;タマゴ技</th></tr>
+<tr class="move_main_row" data-type="3" data-class="0"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=77">どくのこな</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=688&amp;move1_s=77&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t3">どく</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>35</td><td>×</td><td class="move_ex_cell">相手を『どく』状態にする。『どく』タイプや『はがね』タイプ、『くさ』タイプ、特性『ぼうじん』のポケモンには無効。</td></tr>
+<tr class="move_main_row" data-type="11" data-class="0"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=78">しびれごな</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=688&amp;move1_s=78&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t11">くさ</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>75</td><td>30</td><td>×</td><td class="move_ex_cell">相手を『まひ』状態にする。『でんき』タイプや『くさ』タイプ、特性『ぼうじん』のポケモンには無効。</td></tr>
+<tr class="move_main_row" data-type="6" data-class="0"><td class="move_condition_cell">遺伝</td><td colspan="6" class="move_name_cell"><a href="./search/?move=476">いかりのこな</a><span class="needless space_left">(<a href="./search/?search=1&amp;mode=i&amp;i_poke_s=688&amp;move1_s=476&amp;evo=1&amp;past=1&amp;level=1&amp;machine=1&amp;inherit=1&amp;teach=1">遺伝経路</a>)</span></td></tr>
+<tr class="move_detail_row"><td><span class="type t6">むし</span></td><td class="change"><span class="change">変化</span></td><td>-</td><td>-</td><td>20</td><td>×</td><td class="move_ex_cell">必ず先制できる(優先度:+2)。そのターンの相手の技をすべて自分が受ける。ただし、全体技には効果がない。『くさ』タイプや特性『ぼうじん』のポケモンには無効。ダブルバトル用。</td></tr></table>
 </div>
 </div>
 
@@ -313,30 +314,30 @@ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1456812093244-0');
 <h2>注目の育成論</h2>
 <div id="side_bar_theory_list">
 <ul>
-<li><a href="http://yakkun.com/sm/theory/n134"><img src="http://img.yakkun.com/poke/sm_icon/n134.gif" alt="シャワーズ" />ブイズ最強</a></li>
-<li>ひかえめ&nbsp;/&nbsp;うるおいボディ&nbsp;/&nbsp;たべのこし</li>
-<li>HP:172&nbsp;/&nbsp;防御:252&nbsp;/&nbsp;特攻:76&nbsp;/&nbsp;特防:4&nbsp;/&nbsp;素早:4</li>
-<li>ねっとう&nbsp;/&nbsp;れいとうビーム&nbsp;/&nbsp;あまごい&nbsp;/&nbsp;くろいきり</li>
+<li><a href="http://yakkun.com/sm/theory/n203"><img src="http://img.yakkun.com/poke/sm_icon/n398.gif" alt="ムクホーク" />ムクドリ×タカ×オウム【in対面構築】</a></li>
+<li>ようき&nbsp;/&nbsp;いかく&nbsp;/&nbsp;ヒコウZ</li>
+<li>HP:4&nbsp;/&nbsp;攻撃:252&nbsp;/&nbsp;素早:252</li>
+<li>ブレイブバード&nbsp;/&nbsp;インファイト&nbsp;/&nbsp;オウムがえし&nbsp;/&nbsp;まもる</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n131"><img src="http://img.yakkun.com/poke/sm_icon/n771.gif" alt="ナマコブシ" />後続を守る！【バトンナマコ】</a></li>
-<li>のんき&nbsp;/&nbsp;てんねん&nbsp;/&nbsp;ドクZ</li>
-<li>HP:252&nbsp;/&nbsp;防御:252&nbsp;/&nbsp;特防:6</li>
-<li>じょうか&nbsp;/&nbsp;バトンタッチ&nbsp;/&nbsp;どくどく&nbsp;/&nbsp;じこさいせい</li>
+<li><a href="http://yakkun.com/sm/theory/n193"><img src="http://img.yakkun.com/poke/sm_icon/n65m.gif" alt="メガフーディン" />七世代のメガフーディン徹底考察　</a></li>
+<li>おくびょう&nbsp;/&nbsp;トレース&nbsp;/&nbsp;対応メガストーン</li>
+<li>HP:52&nbsp;/&nbsp;防御:204&nbsp;/&nbsp;素早:252</li>
+<li>サイコキネシス&nbsp;/&nbsp;きあいだま&nbsp;/&nbsp;まもる&nbsp;/&nbsp;アンコール</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n130"><img src="http://img.yakkun.com/poke/sm_icon/n549.gif" alt="ドレディア" />祝!!まさかのトップメタ　【コータスドレディア】</a></li>
-<li>ひかえめ&nbsp;/&nbsp;ようりょくそ&nbsp;/&nbsp;クサZ</li>
-<li>特攻:252&nbsp;/&nbsp;特防:4&nbsp;/&nbsp;素早:252</li>
-<li>リーフストーム&nbsp;/&nbsp;おさきにどうぞ&nbsp;/&nbsp;ねむりごな&nbsp;/&nbsp;エナジーボール</li>
+<li><a href="http://yakkun.com/sm/theory/n192"><img src="http://img.yakkun.com/poke/sm_icon/n796.gif" alt="デンジュモク" />めざ地デンジュモク</a></li>
+<li>ひかえめ&nbsp;/&nbsp;ビーストブースト&nbsp;/&nbsp;たつじんのおび</li>
+<li>HP:212&nbsp;/&nbsp;防御:92&nbsp;/&nbsp;特攻:4&nbsp;/&nbsp;特防:100&nbsp;/&nbsp;素早:100</li>
+<li>10まんボルト&nbsp;/&nbsp;めざめるパワー&nbsp;/&nbsp;ボルトチェンジ&nbsp;/&nbsp;どくどく</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n126"><img src="http://img.yakkun.com/poke/sm_icon/n474.gif" alt="ポリゴンZ" />@ノーマルZ【基本考察】</a></li>
-<li>おくびょう&nbsp;/&nbsp;てきおうりょく&nbsp;/&nbsp;ノーマルZ</li>
-<li>HP:4&nbsp;/&nbsp;特攻:252&nbsp;/&nbsp;素早:252</li>
-<li>シャドーボール&nbsp;/&nbsp;テクスチャー&nbsp;/&nbsp;れいとうビーム&nbsp;/&nbsp;トライアタック</li>
+<li><a href="http://yakkun.com/sm/theory/n189"><img src="http://img.yakkun.com/poke/sm_icon/n778.gif" alt="ミミッキュ" />【Z鬼火】執念と怨恨の焔Zミミッキュ</a></li>
+<li>ようき&nbsp;/&nbsp;ばけのかわ&nbsp;/&nbsp;ホノオZ</li>
+<li>攻撃:180&nbsp;/&nbsp;防御:76&nbsp;/&nbsp;素早:252</li>
+<li>おにび&nbsp;/&nbsp;じゃれつく&nbsp;/&nbsp;シャドークロー&nbsp;/&nbsp;みちづれ</li>
 </ul><hr /><ul>
-<li><a href="http://yakkun.com/sm/theory/n120"><img src="http://img.yakkun.com/poke/sm_icon/n799.gif" alt="アクジキング" />RFガラガラやギルガルド意識☆アクジキングの調整</a></li>
-<li>れいせい&nbsp;/&nbsp;ビーストブースト&nbsp;/&nbsp;オボンのみ</li>
-<li>HP:12&nbsp;/&nbsp;防御:180&nbsp;/&nbsp;特攻:252&nbsp;/&nbsp;特防:60&nbsp;/&nbsp;素早:4</li>
-<li>あくのはどう&nbsp;/&nbsp;りゅうせいぐん&nbsp;/&nbsp;ヘドロウェーブ&nbsp;/&nbsp;どくどく</li>
+<li><a href="http://yakkun.com/sm/theory/n186"><img src="http://img.yakkun.com/poke/sm_icon/n20a.gif" alt="ラッタ(アローラ)" />いのちがけすりかえRラッタ</a></li>
+<li>ようき&nbsp;/&nbsp;あついしぼう&nbsp;/&nbsp;こだわりスカーフ</li>
+<li>HP:252&nbsp;/&nbsp;攻撃:4&nbsp;/&nbsp;素早:252</li>
+<li>いのちがけ&nbsp;/&nbsp;すりかえ&nbsp;/&nbsp;いかりのまえば&nbsp;/&nbsp;とんぼがえり</li>
 </ul>
 </div>
 </div>
@@ -382,7 +383,7 @@ function googleTranslateElementInit() {
 <h2>ページ情報</h2>
 <div>
 <dl>
-<dt>最終更新日</dt><dd>2016年12月11日(日)</dd>
+<dt>最終更新日</dt><dd>2016年12月13日(火)</dd>
 </dl>
 </div>
 </div>
