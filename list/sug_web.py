@@ -5,7 +5,7 @@ from util import *
 import itertools
 
 @get('/')
-def hello():
+def index():
     try:
         p = Party(*[request.GET.decode()["poke{}".format(i)] for i in range(6)])
     except Exception as e:
@@ -19,6 +19,21 @@ def hello():
         "type_suggest": p.suggest(),
         "poke_suggest": p.pokemon_suggest(sum=450),
         })
+
+
+@get('/all')
+def all():
+    try:
+        p = Party(*[request.GET.decode()["poke{}".format(i)] for i in range(6)])
+    except Exception as e:
+        print(e)
+        p = Party()
+    context = {
+        "autocomplete": [x.name for x in Pokemons.select()],
+        "members": p.members,
+    }
+    context.update(p.all_analysis())
+    return template('all.tpl', context)
 
 if __name__ == '__main__':
     run(host='localhost', port=8080, debug=True, reloader=True)

@@ -6,12 +6,12 @@ import itertools
 import random
 
 
-def create_base():
-    return {x: 1 for x in OriginTypes.select()}
+def create_base(n=1):
+    return {x: n for x in OriginTypes.select()}
 
 
 def calc_atk_chems(*targets):
-    atkbase = create_base()
+    atkbase = create_base(0)
     for chem in TypeChemistries.select().where(TypeChemistries.atk << targets):
         atkbase[chem.dfc] = max(atkbase[chem.dfc], chem.effective)
     return atkbase
@@ -59,7 +59,7 @@ class Party:
         return [[t.typedata for t in x.types] for x in self.members]
 
     def ad_list(self):
-        atkbase, dfcbase = create_base(), create_base()
+        atkbase, dfcbase = create_base(0), create_base(2)
         for t in self.types():
             for k, v in calc_atk_chems(*t).items(): atkbase[k] = max(atkbase[k], v)
             for k, v in calc_dfc_chems(*t).items(): dfcbase[k] = min(dfcbase[k], v)
@@ -111,6 +111,20 @@ class Party:
             sug_list.append([[x.name for x in set(sug)], [x.pokemon.name for x in ps.search(*set(sug), sum=sum)]])
         return sug_list
 
+    def all_analysis(self):
+        atk, dfc = self.ad_list()
+        chems = []
+        for t in itertools.combinations(OriginTypes.select(), 2):
+            a = [max(atk[k], v) for k, v in calc_atk_chems(*t).items()]
+            d = [min(dfc[k], v) for k, v in calc_dfc_chems(*t).items()]
+            chems.append([
+                len([x for x in a if x > 1]),
+                len([x for x in d if x < 1]),
+                [x.name for x in t],
+                [x.pokemon.name for x in ps.search(*t)], ])
+        max_list = max(chems, key=lambda x: x[0])[0], max(chems, key=lambda x: x[1])[1], (lambda x: x[0] + x[1])(max(chems, key=lambda x: x[0] + x[1]))
+        return {"max_list": max_list, "chemistries": chems}
+
     def __str__(self):
         return ", ".join([x.name for x in self.members])
 
@@ -146,9 +160,9 @@ def optimize_random_party(party, sum=0, repeat=5):
             result = p
             sug_len = tmp
     return result
-# party = Party("ギルガルド(シールドフォルム)", "サザンドラ", "メガカイロス", "マッギョ", "パルシェン", "バシャーモ")
-# party = Party("ニョロボン", "ランドロス(れいじゅうフォルム)")
-# import random
-# for i in range(10):
-#     p = random_party(Party("メガカイロス"))
-#     print(p, "at", p.at())
+
+
+if __name__ == '__main__':
+    party = Party("ジバコイル")
+    for chem in sorted(party.all_analysis()["chemistries"], key=lambda x: x[1], reverse=True):
+        print(chem)
