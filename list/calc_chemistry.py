@@ -4,22 +4,27 @@ from data import *
 import poke_search as ps
 import itertools
 import random
+import threading
 
 
 def create_base(n=1.0):
     return {x: n for x in OriginTypes.select()}
 
 
+ATK_CHEM_CACHE = {tp : tp.atks for tp in OriginTypes.select()}
+DFC_CHEM_CACHE = {tp : tp.dfcs for tp in OriginTypes.select()}
 def calc_atk_chems(*targets):
     atkbase = create_base(0.0)
-    for chem in TypeChemistries.select().where(TypeChemistries.atk << targets):
-        atkbase[chem.dfc] = max(atkbase[chem.dfc], chem.effective)
+    for target in targets:
+        for chem in ATK_CHEM_CACHE[target]:
+            atkbase[chem.dfc] = max(atkbase[chem.dfc], chem.effective)
     return atkbase
 
 def calc_dfc_chems(*targets):
     dfcbase = create_base()
-    for chem in TypeChemistries.select().where(TypeChemistries.dfc << targets):
-        dfcbase[chem.atk] *= chem.effective
+    for target in targets:
+        for chem in DFC_CHEM_CACHE[target]:
+            dfcbase[chem.atk] *= chem.effective
     return dfcbase
 
 
@@ -164,10 +169,15 @@ def optimize_random_party(party, sum=0, repeat=5):
 
 if __name__ == '__main__':
     party = Party("カプ・ブルル", "ヒードラン")
-    atk, dfc = party.ad_list()
-    print([(k.name, v) for k, v in sorted(atk.items(), key=lambda x: x[0].id)])
-    print([(k.name, v) for k, v in sorted(dfc.items(), key=lambda x: x[0].id)])
-    print(len({k.name:v for k, v in atk.items() if v > 1}))
-    print(len({k.name:v for k, v in dfc.items() if v < 1}))
+    # print(*sorted({k.name:v for k, v in calc_atk_chems(
+    #     OriginTypes.get(name="みず"),
+    #     OriginTypes.get(name="じめん")).items()}.items(),
+    #     key=lambda x: x[0]))
+    print(party.all_analysis()["chemistries"])
+    # atk, dfc = party.ad_list()
+    # print([(k.name, v) for k, v in sorted(atk.items(), key=lambda x: x[0].id)])
+    # print([(k.name, v) for k, v in sorted(dfc.items(), key=lambda x: x[0].id)])
+    # print(len({k.name:v for k, v in atk.items() if v > 1}))
+    # print(len({k.name:v for k, v in dfc.items() if v < 1}))
     # for chem in sorted(party.all_analysis()["chemistries"], key=lambda x: x[1], reverse=True):
     #     print(chem)
