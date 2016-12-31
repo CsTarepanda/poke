@@ -35,7 +35,7 @@
       "mouseenter": function(){
         $("#chem_list #chem_list_all").hide();
         $("#chem_list #chem_list_{{index}}").show();
-        $("#chem_list_name").text("{{member.name[:3]}}");
+        $("#chem_list_name").text("{{member.name[:1]}}");
       },
       "mouseleave": function(){
         $("#chem_list #chem_list_{{index}}").hide();
