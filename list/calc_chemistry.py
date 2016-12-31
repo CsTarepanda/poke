@@ -6,12 +6,12 @@ import itertools
 import random
 
 
-def create_base(n=1):
+def create_base(n=1.0):
     return {x: n for x in OriginTypes.select()}
 
 
 def calc_atk_chems(*targets):
-    atkbase = create_base(0)
+    atkbase = create_base(0.0)
     for chem in TypeChemistries.select().where(TypeChemistries.atk << targets):
         atkbase[chem.dfc] = max(atkbase[chem.dfc], chem.effective)
     return atkbase
@@ -59,7 +59,7 @@ class Party:
         return [[t.typedata for t in x.types] for x in self.members]
 
     def ad_list(self):
-        atkbase, dfcbase = create_base(0), create_base(2)
+        atkbase, dfcbase = create_base(0.0), create_base(2.0)
         for t in self.types():
             for k, v in calc_atk_chems(*t).items(): atkbase[k] = max(atkbase[k], v)
             for k, v in calc_dfc_chems(*t).items(): dfcbase[k] = min(dfcbase[k], v)
@@ -163,6 +163,11 @@ def optimize_random_party(party, sum=0, repeat=5):
 
 
 if __name__ == '__main__':
-    party = Party("ジバコイル")
-    for chem in sorted(party.all_analysis()["chemistries"], key=lambda x: x[1], reverse=True):
-        print(chem)
+    party = Party("カプ・ブルル", "ヒードラン")
+    atk, dfc = party.ad_list()
+    print([(k.name, v) for k, v in sorted(atk.items(), key=lambda x: x[0].id)])
+    print([(k.name, v) for k, v in sorted(dfc.items(), key=lambda x: x[0].id)])
+    print(len({k.name:v for k, v in atk.items() if v > 1}))
+    print(len({k.name:v for k, v in dfc.items() if v < 1}))
+    # for chem in sorted(party.all_analysis()["chemistries"], key=lambda x: x[1], reverse=True):
+    #     print(chem)

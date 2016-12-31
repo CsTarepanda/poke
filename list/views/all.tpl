@@ -1,24 +1,31 @@
 % rebase("base.tpl", title="")
+% members = party.members
 
 <h1>全パターン解析</h1>
 
-% include("pokeform.tpl", action="/all")
-</form>
+<div style="float: left; margin-right: 20px">
+  % include("pokeform.tpl", action="/all")
+  </form>
+</div>
 
-<p>atk max: {{max_list[0]}} dfc max: {{max_list[1]}} atk+dfc max: {{max_list[2]}}</p>
-<table class="table table-bordered table-hover">
-  <thead>
-    <tr id="head" align="left">
-      <th id="atk_sort"><span class="btn atk">atk</span></th>
-      <th id="dfc_sort"><span class="btn dfc">dfc</span></th>
-      <th id="atk_dfc_sort"><span class="btn atk_dfc">atk+dfc</span></th>
-      <th>タイプ</th>
-      <th>ポケモン</th>
-    </tr>
-  </thead>
-  <tbody id="suggest_list">
-  </tbody>
-</table>
+% include("chem_list.tpl")
+
+<div style="float: left">
+  <p>atk max: {{max_list[0]}} dfc max: {{max_list[1]}} atk+dfc max: {{max_list[2]}}</p>
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr id="head" align="left">
+        <th id="atk_sort"><span class="btn atk">atk</span></th>
+        <th id="dfc_sort"><span class="btn dfc">dfc</span></th>
+        <th id="atk_dfc_sort"><span class="btn atk_dfc">atk+dfc</span></th>
+        <th>タイプ</th>
+        <th>ポケモン</th>
+      </tr>
+    </thead>
+    <tbody id="suggest_list">
+    </tbody>
+  </table>
+</div>
 
 <style>
 .atk{

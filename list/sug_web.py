@@ -13,7 +13,7 @@ def index():
         p = Party()
     if "random_party" in request.GET:
         p = optimize_random_party(p, sum=450, repeat=10)
-    return template('index', {
+    return template("index", {
         "autocomplete": [x.name for x in Pokemons.select()],
         "members": p.members,
         "type_suggest": p.suggest(),
@@ -30,7 +30,7 @@ def all():
         p = Party()
     context = {
         "autocomplete": [x.name for x in Pokemons.select()],
-        "members": p.members,
+        "party": p,
     }
     context.update(p.all_analysis())
     return template('all.tpl', context)
