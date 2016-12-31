@@ -4,7 +4,7 @@
 % atk, dfc = party.ad_list()
 % atk = len([x for x in atk.values() if x > 1])
 % dfc = len([x for x in dfc.values() if x < 1])
-<h1>全パターン解析<small>atk max: {{atk}} dfc max: {{dfc}} atk+dfc max: {{atk + dfc}}</small></h1>
+<h1>全パターン解析<small>atk: {{atk}} dfc: {{dfc}} atk+dfc: {{atk + dfc}}</small></h1>
 
 <div style="float: left; margin-right: 20px">
   % include("pokeform.tpl", action="/all")
