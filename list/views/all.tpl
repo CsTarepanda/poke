@@ -1,7 +1,10 @@
 % rebase("base.tpl", title="")
 % members = party.members
 
-<h1>全パターン解析</h1>
+% atk, dfc = party.ad_list()
+% atk = len([x for x in atk.values() if x > 1])
+% dfc = len([x for x in dfc.values() if x < 1])
+<h1>全パターン解析<small>atk max: {{atk}} dfc max: {{dfc}} atk+dfc max: {{atk + dfc}}</small></h1>
 
 <div style="float: left; margin-right: 20px">
   % include("pokeform.tpl", action="/all")
