@@ -1,7 +1,7 @@
 % from calc_chemistry import Party
 % from bottle import template
     
-<table id="chem_list" class="table table-bordered table-hover" style="width: 50%">
+<table id="chem_list" class="table table-bordered table-hover" style="width: 70%">
   <thead>
     <tr>
       % head = 8
