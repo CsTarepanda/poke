@@ -1,5 +1,6 @@
 from peewee import *
-DATABASE = SqliteDatabase("/home/c0115114ca/my/work/poke/list/pokemon.sqlite3")
+import os
+DATABASE = SqliteDatabase("{home}/my/work/poke/defs/pokemon.sqlite3".format(home=os.environ["HOME"]))
 class BaseModel(Model):
     class Meta:
         database = DATABASE
